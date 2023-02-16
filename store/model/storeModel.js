@@ -6,6 +6,7 @@ const storeSchema = new mongoose.Schema(
       type: String,
       required: true
     },
+    catalog_ids:String,
     creator_id: String,
     seller_id: String | null,
     product_ids: [String],
