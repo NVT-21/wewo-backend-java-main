@@ -9,6 +9,9 @@ const storeSchema = new mongoose.Schema(
     age:{
       type: Number,
     },
+    username:{
+      type: String,
+    },
     catalog_ids:String,
     creator_id: String,
     seller_id: String | null,
