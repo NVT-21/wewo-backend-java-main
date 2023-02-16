@@ -12,6 +12,9 @@ const storeSchema = new mongoose.Schema(
     username:{
       type: String,
     },
+    nameId:{
+      type: String,
+    },
     catalog_ids:String,
     creator_id: String,
     seller_id: String | null,
